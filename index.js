@@ -91,7 +91,7 @@ app.post('/registro', (req,res) => {
             });
            } else{
             res.render('validacion', {
-                titulo: 'Registro con Exito ',
+                titulo: 'Registro con Exito Se Envio un mail a su Correo Electronico ',
                 style:'styles.css',
           }); 
         
@@ -159,6 +159,7 @@ app.post('/registro', (req,res) => {
 
 
 
+    
 
 
 
